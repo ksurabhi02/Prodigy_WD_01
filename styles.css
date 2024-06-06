@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  header {
+    background-image: url('https://images.pexels.com/photos/9310255/pexels-photo-9310255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    padding: 20px 0;
+  }
+  
+  
+  header h1 {
+    float: left;
+  }
+  #home {
+    padding: 20px;
+  }
+  
+  .main-heading h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .package-tour-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .package-tour-content-title {
+    margin-bottom: 20px;
+    position: relative;
+    
+  }
+  
+  .package-tour-content-title p {
+    color: grey;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+  
+  .package-tour-content-title img {
+  position: absolute;
+  top: 0;
+  left: 100%; 
+  margin-left: 20px; 
+  max-width: calc(50% - 20px); 
+  border-radius: 20px;
+  margin-top: 20px;
+  }
+
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav li a {
+    color: #161313;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    color: #e61a1a; 
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #places {
+    padding: 20px;
+  }
+
+  #explore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align:center;
+  }
+  
+  .card p {
+    color: #171212;
+  }
+
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  .btn-primary {
+    background-color: #6f2512;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #b30000;
+  }
